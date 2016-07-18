@@ -47,7 +47,7 @@ exports.decorateTerm = (Term, { React, notify }) => {
     _drawFrame() {
       this._canvasContext.clearRect(0, 0, this._canvas.width, this._canvas.height);
 
-      this._canvasContext.fillStyle="#222222"
+      this._canvasContext.fillStyle="#FF0000"
       this._canvasContext.fillRect(0,this._canvas.height - 18,this._canvas.width,18)
 
       this._canvasContext.font = 'bold 0.8pc Monospace';
